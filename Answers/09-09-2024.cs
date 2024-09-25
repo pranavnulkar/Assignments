@@ -6,7 +6,7 @@ using System.Net.Security;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignments
+namespace Assignments.Answers
 {
     class _09_09_2024
     {
@@ -65,7 +65,7 @@ namespace Assignments
             }*/
 
             //stringbuilder Operations
-            StringBuilder sb= new StringBuilder();
+            StringBuilder sb = new StringBuilder();
 
             sb.Append("Hi Guys\n");
             sb.Append("David");
@@ -78,7 +78,7 @@ namespace Assignments
             sb.Append(",");
             sb.Append("Shane");
 
-            string x= sb.ToString();
+            string x = sb.ToString();
             Console.WriteLine($"Original String Using Append Operation: \n {x}");
 
             Console.WriteLine();

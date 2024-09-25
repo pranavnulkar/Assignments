@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignments
+namespace Assignments.Answers
 {
     public class Person
     {
@@ -16,7 +16,7 @@ namespace Assignments
 
     public class Employee : Person
     {
-        public Employee(int empId,string empName,int empAge,string empAddress)
+        public Employee(int empId, string empName, int empAge, string empAddress)
         {
             this.empId = empId;
             this.empName = empName;
@@ -30,7 +30,7 @@ namespace Assignments
             Console.WriteLine($" Id:- {empId} \n Name:- {empName} \n Age:- {empAge} \n Address:- {empAddress}");
         }
     }
-    
+
 
     //Private Acess Modifier
     public class Person1
@@ -59,7 +59,7 @@ namespace Assignments
             Employee emp1 = new Employee(102, "Ajit", 35, "Nagar");
             emp1.Display();
 
-            Person1 p1=new Person1();
+            Person1 p1 = new Person1();
             p1.empName("Pranav", "Nulkar");
             p1.Display1();
         }

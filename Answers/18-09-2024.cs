@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignments
+namespace Assignments.Answers
 {
     class _18_09_2024
     {
@@ -44,18 +44,18 @@ namespace Assignments
             for (int i = 0; i < Numbers.Length; i++)
             {
                 count++;
-                if(Numbers[i] < min)
+                if (Numbers[i] < min)
                 {
                     min = Numbers[i];
                 }
-                else if(Numbers[i] > max)
+                else if (Numbers[i] > max)
                 {
                     max = Numbers[i];
                 }
             }
             Console.WriteLine("\nTotal Number Count In Given Array Is :- " + count);
-            Console.WriteLine("Minimum Number In Given Array Is :- " +min);
-            Console.WriteLine("Maximum Number In Given Array Is :- " +max);
+            Console.WriteLine("Minimum Number In Given Array Is :- " + min);
+            Console.WriteLine("Maximum Number In Given Array Is :- " + max);
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignments
+namespace Assignments.Answers
 {
     internal class _06_09_2024
     {
@@ -78,15 +78,15 @@ namespace Assignments
             }
 
             Console.WriteLine("Even Numbers Is:- ");
-            for(int i = 0; i < evencnt; i++)
+            for (int i = 0; i < evencnt; i++)
             {
-                Console.Write(even[i] +" ");
+                Console.Write(even[i] + " ");
             }
             Console.WriteLine();
             Console.WriteLine("Odd Numbers Is :- ");
-            for(int i = 0; i < oddcnt; i++)
+            for (int i = 0; i < oddcnt; i++)
             {
-                Console.Write(odd[i]+" ");
+                Console.Write(odd[i] + " ");
             }
             Console.WriteLine();
         }

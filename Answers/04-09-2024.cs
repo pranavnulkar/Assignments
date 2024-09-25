@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignments
+namespace Assignments.Answers
 {
     internal class _04_09_2024
     {

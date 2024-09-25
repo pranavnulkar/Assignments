@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignments
+namespace Assignments.Answers
 {
     //write a c# program that display a menu of food item to theuser
     //prompt the user to enter a number to their choice use switch case to display item & price
@@ -42,7 +42,7 @@ namespace Assignments
                     while (x != 7) ;
                     break;
 
-            } 
+            }
         }
     }
 }

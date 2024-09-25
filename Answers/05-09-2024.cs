@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignments
+namespace Assignments.Answers
 {
     internal class _05_09_2024
     {
@@ -20,7 +20,7 @@ namespace Assignments
             int[] Numbers = new int[x];
             for (int i = 0; i < x; i++)
             {
-                Console.Write($"Enter The Array Element {i+1}:-");
+                Console.Write($"Enter The Array Element {i + 1}:-");
                 int y = Convert.ToInt32(Console.ReadLine());
                 Numbers[i] = y;
             }
@@ -46,7 +46,7 @@ namespace Assignments
         {
             foreach (var num in arr)
             {
-                Console.Write(num+ "\t");
+                Console.Write(num + "\t");
             }
         }
         //Sum Method

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignments
+namespace Assignments.Answers
 {
     class _02_09_24
     {
@@ -21,7 +21,7 @@ namespace Assignments
             {
                 Console.WriteLine("Please Enter Positive Grade Between 0-100");
             }
-            else if(x >= 90)
+            else if (x >= 90)
             {
                 Console.WriteLine("The Letter Grade Is A");
             }
@@ -40,7 +40,7 @@ namespace Assignments
             else if (x >= 40)
             {
                 Console.WriteLine("The Letter Grade Is E");
-            }           
+            }
             else
             {
                 Console.WriteLine("The Grade Letter Is F");
