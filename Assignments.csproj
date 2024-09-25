@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Assignments._17_09_2024</StartupObject>
+    <StartupObject>Assignments.Answers._25_09_2024</StartupObject>
   </PropertyGroup>
 
 </Project>
