@@ -9,7 +9,7 @@ namespace Assignments.OOPS
 {
     class Persons
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public int Age { get; set; }
         public void Intro()
         {
@@ -19,7 +19,7 @@ namespace Assignments.OOPS
 
     class Teacher : Persons
     {
-        public string Subject { get; set; }
+        public string? Subject { get; set; }
 
         public void TecherIntro()
         {
@@ -29,7 +29,7 @@ namespace Assignments.OOPS
 
     class Principle : Teacher
     {
-        public string SchoolName { get; set; }
+        public string? SchoolName { get; set; }
 
         public void PrincipleIntro()
         {
