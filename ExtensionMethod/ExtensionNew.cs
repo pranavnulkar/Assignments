@@ -24,8 +24,21 @@ namespace Assignments.ExtensionMethod
 
         public static void Division(this ExtensionOld eo,int x,int y)
         {
-            double div = x/y;
-            Console.WriteLine($"Division Of Given Number Is:- {div}");
+            try
+            {
+                if (y == 0)
+                {
+                    throw new DivideByZeroException("Denominator Cannot be Zero");
+                }
+                double div = x / y;
+                Console.WriteLine($"Division Of Given Number Is:- {div}");
+
+            }
+            catch(DivideByZeroException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
         }
     }
 }

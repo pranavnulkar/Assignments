@@ -17,7 +17,7 @@ namespace Assignments.ExtensionMethod
             //calling method from new class using old class object
             extensionOld.Subtraction();
             extensionOld.Multiplication();
-            extensionOld.Division(20,10);
+            extensionOld.Division(20,5);
         }
     }
 }

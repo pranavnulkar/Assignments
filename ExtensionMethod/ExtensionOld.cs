@@ -13,7 +13,7 @@ namespace Assignments.ExtensionMethod
         public void Addition()
         {
             int add = x + y + z;
-            Console.WriteLine($"Additio Of Given Number Is:- {add}");
+            Console.WriteLine($"Additio Of Given Number Is:- {add} ");
         }
     }
 }
